@@ -71,11 +71,11 @@ HTML, CSS, JavaScript
 
 Backend:
 
-Spring Boot (Java)
+- Spring Boot (Java)
 
 Database:
 
-MySQL
+- MySQL
 
 APIs (Future Use):
 
