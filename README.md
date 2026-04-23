@@ -21,7 +21,7 @@ I chose to build Momentum because I have personally experienced the challenge of
 
 This project focuses on solving that exact problem by helping users move from inaction to progress in a realistic and sustainable way.
 
-## Core Features (MVP)
+## Core Features
 ### 1. Decision Tracking
 Users can log decisions they are avoiding
 Each decision includes:
