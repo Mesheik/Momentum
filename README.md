@@ -58,10 +58,10 @@ Tracks completed MicroWins
 Shows progress toward completing each decision
 Reinforces consistency and forward movement
 ## Future Enhancements (Stretch Goals)
-Smart MicroWin suggestions (rule-based or AI-assisted)
-Decision prioritization (importance vs urgency)
-Notifications and reminders
-Analytics dashboard (decision trends, completion rates)
+- Smart MicroWin suggestions (rule-based or AI-assisted)
+- Decision prioritization (importance vs urgency)
+- Notifications and reminders
+- Analytics dashboard (decision trends, completion rates)
 ## Tech Stack
 
 Frontend:
@@ -79,7 +79,7 @@ Database:
 
 APIs (Future Use):
 
-AI API for intelligent step suggestions
+- AI API for intelligent step suggestions
 ## What Makes Momentum Different
 
 Most productivity tools focus on what users should do.
