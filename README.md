@@ -1,9 +1,9 @@
-Momentum
-Elevator Pitch
+#Momentum
+##Elevator Pitch
 
 Momentum is a full-stack web application that helps users overcome decision avoidance by turning overwhelming tasks into small, manageable actions. It tracks how long decisions are delayed and guides users to take their first step, helping them build momentum and move forward.
 
-Problem Statement
+##Problem Statement
 
 Many people don’t struggle because they can’t make decisions—they struggle because they avoid them. Important tasks like applying for jobs, studying, or handling responsibilities often get delayed due to overwhelm, uncertainty, or lack of direction.
 
@@ -11,11 +11,11 @@ Over time, these delays create stress, missed opportunities, and a lack of progr
 
 Momentum exists to solve that starting point.
 
-Target User
+##Target User
 
 Momentum is designed for students, early-career professionals, and individuals who frequently delay important decisions due to feeling overwhelmed. This includes users preparing for jobs, learning new skills, or managing responsibilities who need a structured way to move from avoidance to action.
 
-Why This Project
+##Why This Project
 
 I chose to build Momentum because I have personally experienced the challenge of delaying important decisions like job applications, skill development, and personal goals. I understand how difficult it can be to take the first step, even when you know what needs to be done.
 
