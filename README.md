@@ -66,7 +66,7 @@ Analytics dashboard (decision trends, completion rates)
 
 Frontend:
 
-React
+- React
 HTML, CSS, JavaScript
 
 Backend:
