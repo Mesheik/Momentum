@@ -1,0 +1,108 @@
+@startuml
+title Momentum - Frontend UML
+
+class App {
+  +Routes
+  +ProtectedRoutes
+}
+
+class LandingPage {
+  +showHero()
+  +showHowItWorks()
+  +showCTA()
+}
+
+class LoginPage {
+  +email
+  +password
+  +handleLogin()
+}
+
+class SignupPage {
+  +name
+  +email
+  +password
+  +handleSignup()
+}
+
+class DashboardPage {
+  +showStats()
+  +showRecentDecisions()
+  +showRecentMicroWins()
+}
+
+class DecisionsPage {
+  +fetchDecisions()
+  +showDecisionList()
+  +openDecisionDetails()
+}
+
+class DecisionDetailPage {
+  +fetchDecisionById()
+  +showMicroWins()
+  +markMicroWinComplete()
+}
+
+class AddDecisionForm {
+  +title
+  +description
+  +priority
+  +handleSubmit()
+}
+
+class MicroWinsPage {
+  +fetchPendingMicroWins()
+  +markComplete()
+}
+
+class AnalyticsPage {
+  +showCompletedMicroWins()
+  +showDelayedDecisions()
+  +showProgress()
+}
+
+class DecisionCard {
+  +title
+  +description
+  +delayDays
+  +progress
+}
+
+class MicroWinItem {
+  +text
+  +isCompleted
+  +toggleComplete()
+}
+
+class ApiService {
+  +login()
+  +signup()
+  +getDecisions()
+  +createDecision()
+  +getMicroWins()
+  +updateMicroWin()
+}
+
+App --> LandingPage
+App --> LoginPage
+App --> SignupPage
+App --> DashboardPage
+App --> DecisionsPage
+App --> DecisionDetailPage
+App --> MicroWinsPage
+App --> AnalyticsPage
+
+DecisionsPage --> DecisionCard
+DecisionsPage --> AddDecisionForm
+DecisionDetailPage --> MicroWinItem
+DashboardPage --> DecisionCard
+MicroWinsPage --> MicroWinItem
+
+DashboardPage --> ApiService
+DecisionsPage --> ApiService
+DecisionDetailPage --> ApiService
+MicroWinsPage --> ApiService
+LoginPage --> ApiService
+SignupPage --> ApiService
+
+@enduml
